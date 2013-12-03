@@ -31,6 +31,34 @@ class PowDefaultApp
             a:hover, a:focus { color: #c56342; background: #c7c7bd; }
             img { position: absolute; left: 0; top: 68px; }
             .container { position: relative; width: 500px; margin: 0 auto; padding: 80px 0 0 450px; }
+
+            /* Smaller than standard 960 (devices and browsers) */
+            @media only screen and (max-width: 959px) {
+
+            }
+
+            /* Tablet Portrait size to standard 960 (devices and browsers) */
+            @media only screen and (min-width: 768px) and (max-width: 959px) {
+
+            }
+
+            /* All Mobile Sizes (devices and browser) */
+            @media only screen and (max-width: 767px) {
+              img {display: none;}
+            }
+
+            /* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+            @media only screen and (min-width: 480px) and (max-width: 767px) {
+              img {display: none;}
+            }
+
+            /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+            @media only screen and (max-width: 479px) {
+              img {display: none;}
+              h1 {font-size: 20px; display: inline-block;}
+              .container { position: relative; width: 500px; margin: 0 auto; padding: 0; }
+            }
+
           </style>
         </head>
         <body>
