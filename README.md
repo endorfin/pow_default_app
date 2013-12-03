@@ -23,6 +23,12 @@ To use with [xip.io](http://xip.io/), open `http://10.0.0.100.xip.io/` in your b
 
 - Get default TLD from Pow configuration.
 
-## Screenshot
+## Screenshots
 
-![Example](https://raw.github.com/endorfin/pow_default_app/master/example.png)
+![Example](https://raw.github.com/phallstrom/pow_default_app/master/example.png)
+![Example](https://raw.github.com/phallstrom/pow_default_app/master/example-mobile.png)
+
+
+## Contributions & Thanks
+
+- [René Kersten](https://github.com/endorfin) for a much nicer UI.
