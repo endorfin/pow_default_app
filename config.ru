@@ -27,7 +27,7 @@ class PowDefaultApp
             ol { margin: 0; padding: 2px 0; border-radius: 2px; color: #b4a99d; list-style: none; border-top: 1px solid #c7c7bd; border-bottom: 1px solid #c7c7bd; }
             li { position: relative; background: #d2d2ca; margin-bottom: 1px; }
             li img { display: none; position: absolute; left: auto; top: auto; right: 5px; bottom: 5px; z-index: 10; border: 10px solid #fff; -webkit-box-shadow:  0px 0px 5px 0px rgba(0, 0, 0, 0.3); box-shadow:  0px 0px 5px 0px rgba(0, 0, 0, 0.3); }
-            li:hover img { display: block; }
+            li:hover img, li a:last-child:focus img { display: block; }
             li:last-child { border: 0; }
             li a:first-child { padding: 5px 15px; }
             h1 { font-size: 30px; margin: 0 0 30px 0; font-weight: 300; }
